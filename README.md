@@ -75,8 +75,8 @@ The assignment requires a failed CI run followed by a successful fix. This must 
 
 Add the actual failed and successful run links here after completing the demonstration:
 
-- Failed run: (add link)
-- Successful run: (add link)
+- [Failed CI run](https://github.com/majortife/Assignment-3/actions/runs/37993278359)
+- [Successful CI run](https://github.com/majortife/Assignment-3/actions/runs/37993490811)
 
 ## Notes
 
