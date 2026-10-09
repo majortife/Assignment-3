@@ -64,3 +64,4 @@ case "${1:-}" in
     check-port) [[ $# -eq 3 && -n "$2" && -n "$3" ]] || invalid 'Provide a host and port'; check_port "$2" "$3" ;;
     *) invalid 'Unknown or missing command' ;;
 esac
+

@@ -99,7 +99,8 @@ This allowed me to test both outcomes of the pipeline: detecting a faulty change
 
 **Workflow evidence:**
 
-
+- [Failed CI run](https://github.com/majortife/Assignment-3/actions/runs/37993278359)
+- [Successful CI run](https://github.com/majortife/Assignment-3/actions/runs/37993490811)
 
 ## Project Structure
 
@@ -119,8 +120,6 @@ compose.yaml
 .gitignore
 README.md
 grade.sh
-```
-
 ## Notes
 
 The application uses standard Ubuntu command-line utilities. Network checks depend on the environment, so DNS issues, blocked ICMP traffic, firewalls, and closed ports can affect the results.
