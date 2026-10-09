@@ -99,8 +99,7 @@ This allowed me to test both outcomes of the pipeline: detecting a faulty change
 
 **Workflow evidence:**
 
-- [Failed CI run]((https://github.com/majortife/Assignment-3/actions/runs/37993278359))
-- [Successful CI run]((https://github.com/majortife/Assignment-3/actions/runs/37993490811))
+
 
 ## Project Structure
 
