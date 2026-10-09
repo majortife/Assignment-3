@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -u
-cd "$(dirname "$0")/.."
+cd "$(dirname "$0")/.." || exit 1
 APP=./app/app.sh
 passed=0
 failed=0

@@ -48,6 +48,7 @@ check_port() {
         printf 'Could not resolve host: %s\n' "$host" >&2
         return 1
     fi
+    # shellcheck disable=SC2016
     if timeout 3 bash -c 'exec 3<>/dev/tcp/"$1"/"$2"' _ "$host" "$port" 2>/dev/null; then
         printf 'TCP connection successful: %s:%s\n' "$host" "$port"
     else
