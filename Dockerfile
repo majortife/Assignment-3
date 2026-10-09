@@ -1,4 +1,4 @@
-FROM ubuntu:24.04
+FROM mcr.microsoft.com/oss/ubuntu/ubuntu:24.04
 RUN apt-get update && apt-get install -y --no-install-recommends \
     bash coreutils iputils-ping libc-bin procps \
     && rm -rf /var/lib/apt/lists/*
